@@ -15,20 +15,28 @@ import {
   mysql,
   express,
   aws,
-  mui,
-  
-  gsap,
-  framer,
-  figma,
+  k8s,
+  linux,
+  Jenkins,
+  helm,
+  Grafana,
+  GitHubactions,
+  NGINX,
+  prom,
+  Terraform,
+  Argocd,
+  Ansible,
+ 
+
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
+
   tailwind,
-  threejs,
+ 
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
@@ -94,39 +102,62 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
+    name: "Node js",
+    icon: nodejs,
   },
 
  
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Kubernetes",
+    icon: k8s,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Jenkins",
+    icon: Jenkins,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "GitHubactions",
+    icon: GitHubactions,
   },
+  {
+    name: "helm",
+    icon: helm,
+  },
+  {
+    name: "prom",
+    icon: prom,
+  },
+   {
+    name: "Grafana",
+    icon: Grafana,
+  },  
+  {
+    name: "NGINX",
+    icon: NGINX,
+  },
+   {
+    name: "Terraform",
+    icon: Terraform,
+  },
+
+   {
+    name: "linux",
+    icon: linux,
+  },  
+  {
+    name: "Argocd",
+    icon: Argocd,
+  },
+   {
+    name: "Ansible",
+    icon: Ansible,
+  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+
   {
     name: "Express Js",
     icon: express,
