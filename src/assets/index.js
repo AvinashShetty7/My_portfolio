@@ -9,6 +9,11 @@ import Grafana from "./Grafana.png"
 import Ansible from "./Ansible.png"
 import Argocd from "./Argocd.png"
 import helm from "./helm.png"
+import docker from "./Docker.png"
+import java from "./Java.png"
+import python from "./Python.png"
+import php from "./PHP.png"
+import bash from "./Bash.png"
 import k8s from "./k8s.png"
 import NGINX from "./NGINX.png"
 import prom from "./prom.png"
@@ -48,6 +53,11 @@ export {
   NGINX,
   prom,
   linux,
+  bash,
+  java,
+  python,
+  php,
+  docker,
   Ansible,
   Argocd,
   Jenkins,

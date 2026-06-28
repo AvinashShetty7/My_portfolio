@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -15,6 +14,11 @@ import {
   mysql,
   express,
   aws,
+  docker,
+  php,
+  java,
+  python,
+  bash,
   k8s,
   linux,
   Jenkins,
@@ -26,38 +30,38 @@ import {
   Terraform,
   Argocd,
   Ansible,
- 
-
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-
   tailwind,
- 
-  firstTestimonial,
-  secondTestimonial,
-  thirdTestimonial,
-} from '../assets'
-
+} from "../assets";
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
 
-
 export const navLinks = [
-
-
   {
     id: "about",
     title: "About",
-    
+  },
+  {
+    id: "Experience",
+    title: "Experience",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projects",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "Education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -79,8 +83,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
-    icon: creator,
+    title: "cloud Engineer",
+    icon: web,
   },
 ];
 
@@ -94,8 +98,24 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+   {
+    name: "Php",
+    icon: php,
   },
   {
     name: "React JS",
@@ -105,66 +125,9 @@ const technologies = [
     name: "Node js",
     icon: nodejs,
   },
-
- 
-  {
-    name: "Kubernetes",
-    icon: k8s,
-  },
-  {
-    name: "Jenkins",
-    icon: Jenkins,
-  },
-  {
-    name: "GitHubactions",
-    icon: GitHubactions,
-  },
-  {
-    name: "helm",
-    icon: helm,
-  },
-  {
-    name: "prom",
-    icon: prom,
-  },
-   {
-    name: "Grafana",
-    icon: Grafana,
-  },  
-  {
-    name: "NGINX",
-    icon: NGINX,
-  },
-   {
-    name: "Terraform",
-    icon: Terraform,
-  },
-
-   {
-    name: "linux",
-    icon: linux,
-  },  
-  {
-    name: "Argocd",
-    icon: Argocd,
-  },
-   {
-    name: "Ansible",
-    icon: Ansible,
-  },
-
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-
   {
     name: "Express Js",
     icon: express,
-  },
-  {
-    name: "AWS",
-    icon: aws,
   },
   {
     name: "MongoDB",
@@ -176,108 +139,89 @@ const technologies = [
   },
 
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
- 
+  {
+    name: "Linux",
+    icon: linux,
+  },
+   {
+    name: "Bash",
+    icon: bash,
+  },
+  {
+    name: "Jenkins",
+    icon: Jenkins,
+  },
+  {
+    name: "GitHubactions",
+    icon: GitHubactions,
+  },
 
+  {
+    name: "Argocd",
+    icon: Argocd,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Kubernetes",
+    icon: k8s,
+  },
+  {
+    name: "Helm",
+    icon: helm,
+  },
+  {
+    name: "Prometheus",
+    icon: prom,
+  },
+  {
+    name: "Grafana",
+    icon: Grafana,
+  },
+  {
+    name: "NGINX",
+    icon: NGINX,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Terraform",
+    icon: Terraform,
+  },
+  {
+    name: "Ansible",
+    icon: Ansible,
+  },
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    title: "Web developer Intern",
+    company_name: "PAT Technologies Pvt Ltd",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Feb 2026 - May 2026",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Collaborated on building responsive full-stack applications using the MERN stack, leveraging component-based architecture in ReactJS to optimize frontend performance.",
+      "Designed and integrated secure RESTful APIs executing database-driven CRUD operations to handle high-throughput client-server requests.",
+      "Optimized backend application logic with Node.js and ExpressJS, facilitating seamless workflow transitions and improving application response times.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
-  },
-  {
-    testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
-  },
-];
-
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "TruLeaf – Digital Food Traceability Platform",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
-    ],
-    image: project2,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GearXpert",
-    description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Engineered a production-grade supply chain visibility application using the MERN stack to track historical food logistics transparently from origin to marketplace.",
     tags: [
       {
         name: "react",
@@ -295,10 +239,74 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
+      {
+        name: "Vercel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Render",
+        color: "white-text-gradient",
+      },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://truleaf.vercel.app/",
+  },
+  {
+    name: "AWS Infrastructure Automation using Terraform",
+    description:
+      "Architected a highly available multi-AZ network topology on AWS featuring public subnets for external traffic and private subnets for secure resource isolation.",
+    tags: [
+      {
+        name: "Terraform",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "white-text-gradient",
+      },
+    ],
+    image: project2,
+    source_code_link:
+      "https://github.com/AvinashShetty7/AWS-Infrastructure-Automation-using-Terraform",
+  },
+  {
+    name: "Kubernetes-Based GitOps Deployment of OpsDesk on AWS EKS",
+    description:
+      "Containerized distributed frontend and backend services via multi-stage Docker builds, hosting cloud-native applications seamlessly on a managed AWS EKS cluster.",
+    tags: [
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS EKS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NGINX",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GitHub Actions",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Helm",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Argo CD",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link:
+      "https://github.com/AvinashShetty7/Kubernetes-Based-CI-CD-Deployment-of-OpsDesk-Application-on-AWS-EKS-",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
