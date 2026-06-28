@@ -40,12 +40,16 @@ import {
 } from "../assets";
 
 // Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+import company from "../assets/company/PAT.jpg";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+    {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "Experience",
@@ -55,10 +59,7 @@ export const navLinks = [
     id: "work",
     title: "Projects",
   },
-  {
-    id: "skills",
-    title: "Skills",
-  },
+
   {
     id: "Education",
     title: "Education",
@@ -205,7 +206,7 @@ const experiences = [
   {
     title: "Web developer Intern",
     company_name: "PAT Technologies Pvt Ltd",
-    icon: tekisky,
+    icon: company,
     iconBg: "#383E56",
     date: "Feb 2026 - May 2026",
     points: [

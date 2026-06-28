@@ -22,9 +22,9 @@ import Jenkins from "./Jenkins.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 import css from "./tech/css.png";
-import gearXpert from './gearXpert.png';
-import project3 from './project3.webp';
-import project2 from './proj1.webp'
+import gearXpert from './k8sarch.png';
+import project3 from './project1.png';
+import project2 from './awsarch.png'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';

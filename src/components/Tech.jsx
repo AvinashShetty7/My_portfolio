@@ -37,7 +37,7 @@ const Tech = () => {
             <img
               src={technology.icon}
               alt={technology.name}
-              className="tech-icon w-full h-full object-contain"
+              className="tech-icon w-24 h-full object-contain"
             />
             <p>{technology.name}</p>
           </div>
