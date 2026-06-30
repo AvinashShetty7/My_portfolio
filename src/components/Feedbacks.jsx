@@ -4,6 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
+import company from "../assets/company/PAT.jpg";
+
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -87,6 +89,7 @@ const Feedbacks = () => {
 
           </div>
           <div className="pt-12">
+            <img src={company} className='w-[10%] h-[10%] object-contain'></img>
             <h3 className="text-white text-[24px] font-bold">
               Bachelor of Computer Applications
             </h3>
