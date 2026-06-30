@@ -3,7 +3,6 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 gsap.registerPlugin(ScrollTrigger);
 
 const Tech = () => {
